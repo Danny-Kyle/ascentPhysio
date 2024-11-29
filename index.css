@@ -41,7 +41,6 @@ header {
 
 .header-buttons {
     display: flex;
-    gap: 20px;
 }
 
 .header-buttons img {
