@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     background: linear-gradient(to right, #80b3b3, #cc9966);
     padding: 20px;
+    height: 250px;
     display: flex;
     justify-content: center;
     /* justify-content: space-between; */
@@ -48,8 +49,8 @@ header {
 }
 
 nav {
-    background-color: #f0f8ff;
-    padding: 15px 0;
+    background-color: #c4eaef;
+    padding: 10px 120px;
     border-bottom: 1px solid #ddd;
 }
 
@@ -80,7 +81,7 @@ nav {
 main {
     max-width: 1200px;
     margin: 40px auto;
-    padding: 0 20px;
+    padding: 0 160px;
 }
 
 .intro-text {
@@ -93,4 +94,15 @@ main {
     width: 100%;
     max-height: 500px;
     object-fit: cover;
+}
+
+footer p{
+    background-color: #80b3b3;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-image {
+    margin-top: 50px;
+    grid-template-columns: auto;
 }
