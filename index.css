@@ -122,3 +122,30 @@ footer p{
   .team-image img:nth-child(2n) {
     grid-row: span 2;
   }
+
+  .rates {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .rates h3{
+    margin-bottom: 20px;
+  }
+
+  .rates ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rates li {
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.explanation {
+    font-size: x-small;
+    margin: 160px 30px;
+}
