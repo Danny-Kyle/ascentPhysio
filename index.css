@@ -102,6 +102,15 @@ footer p{
     text-align: center;
 }
 
+.weblinks h3 {
+    color: rgb(40, 148, 230);
+    text-decoration: underline;
+}
+
+.weblinks p{
+    font-weight: 400;
+}
+
 .team-image {
     margin-top: 45px;
     display: grid;
