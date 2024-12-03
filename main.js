@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", async() => {
     };
 
     const currentPage = window.location.pathname.split("/").pop();
-    const contentFile = contentMap[currentPage]  || "main/homecontent.html"
+    const contentFile = contentMap[currentPage]  || "main/home-content.html"
     await loadComponent(contentFile, "#main-content");
 
     highlightActiveLink()
