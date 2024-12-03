@@ -152,3 +152,83 @@ video {
     border: 2px solid #000;
     border-radius: 10px;
 }
+
+@media (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logo-section {
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .phone {
+        font-size: 18px;
+        margin-top: 5px;
+        justify-content: center;
+    }
+
+    .header-buttons {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    nav {
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+
+    .intro-text {
+        font-size: 1em;
+        line-height: 1.4;
+    }
+
+    .team-image {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-gap: 10px;
+    }
+
+    .rates {
+        padding: 10px;
+    }
+
+    .rates h3 {
+        font-size: 1.2em;
+    }
+
+    .rates li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .explanation {
+        margin: 80px 10px;
+        font-size: smaller;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    footer p {
+        font-size: smaller;
+        padding: 10px;
+    }
+}
