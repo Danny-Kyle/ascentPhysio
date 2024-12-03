@@ -138,7 +138,6 @@ footer p{
 
 .rates li {
     margin-bottom: 10px;
-
     display: flex;
     justify-content: space-between;
 
@@ -147,4 +146,9 @@ footer p{
 .explanation {
     font-size: x-small;
     margin: 160px 30px;
+}
+
+video {
+    border: 2px solid #000;
+    border-radius: 10px;
 }
